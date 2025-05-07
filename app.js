@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -159,7 +158,3 @@ app.get("/api/conversion/usd", (req, res) => {
 app.listen(3000, () => {
   console.log(`Servidor en el puerto 3000`);
 });
-=======
-import express from "express";
-console.log("a")
->>>>>>> 0ad5f445e8ad3167c225c113b4efe4e7e2c6d36f
